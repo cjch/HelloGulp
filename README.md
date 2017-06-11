@@ -69,7 +69,7 @@ src为项目开发文件夹，新增dist(distribution)为项目部署文件夹�
 
 4. 编写gulp自动化任务代码。先看看我们的gulpfile.js文件内容：
 
-	```
+	```javascript
 	//引入gulp和各个插件
 	var gulp = require('gulp'),	//gulp插件
 		uglify = require('gulp-uglify'),	//js代码压缩
